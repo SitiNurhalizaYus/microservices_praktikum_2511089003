@@ -44,19 +44,19 @@ Tools yang diinstall:
 
 Cek Java
 
-```
+```java
 java -version
 ```
 
 Cek Docker
 
-```
+```java
 docker --version
 ```
 
 Test Docker Container
 
-```
+```java
 docker run hello-world
 ```
 
@@ -80,12 +80,12 @@ API untuk mencatat sesi fokus belajar.
 
 Contoh data:
 
-```
+```java
 {
-"id":1,
-"activity":"Belajar Machine Learning",
-"method":"Pomodoro",
-"duration":90
+   "id":1,
+   "activity":"Belajar Machine Learning",
+   "method":"Pomodoro",
+   "duration":90
 }
 ```
 
@@ -99,13 +99,13 @@ Endpoint API:
 
 Menjalankan aplikasi:
 
-```
+```java
 ./mvnw spring-boot:run
 ```
 
 Akses API:
 
-```
+```java
 http://localhost:8080/sessions
 ```
 
@@ -127,7 +127,7 @@ Komponen sistem:
 
 Arsitektur:
 
-```
+```java
 Client
    ↓
 Eureka Server
@@ -137,13 +137,13 @@ Microservice
 
 Menjalankan Eureka Server:
 
-```
+```java
 ./mvnw spring-boot:run
 ```
 
 Dashboard Eureka:
 
-```
+```java
 http://localhost:8761
 ```
 
@@ -165,7 +165,7 @@ Fungsi API Gateway:
 
 Arsitektur sistem:
 
-```
+```java
 Client
    ↓
 API Gateway
@@ -177,7 +177,7 @@ Microservice
 
 Contoh akses API melalui Gateway:
 
-```
+```java
 http://localhost:8080/sessions
 ```
 
