@@ -63,8 +63,13 @@ docker run hello-world
 ### Dokumentasi
 
 * hasil `java -version`
+   <img width="1173" height="340" alt="Screenshot 2026-03-08 232549" src="https://github.com/user-attachments/assets/832ab9af-d3e9-488a-9d27-005b2e7e779f" />
+
 * hasil `docker --version`
+   <img width="1199" height="386" alt="image" src="https://github.com/user-attachments/assets/cd54385f-9337-4424-9a0a-a2f07eade9ff" />
+
 * hasil `docker run hello-world`
+   <img width="1919" height="980" alt="Screenshot 2026-03-08 232758" src="https://github.com/user-attachments/assets/b982c6c0-9c7c-4a3c-be4a-956716362965" />
 
 
 ---
