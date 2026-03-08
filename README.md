@@ -125,12 +125,6 @@ Setelah konfigurasi selesai klik **Generate** untuk mengunduh project.
 ### Menjalankan Project
 Extract project yang telah diunduh kemudian buka folder project menggunakan **Visual Studio Code**.
 
-Masuk ke folder project:
-
-```java
-cd product-service
-```
-
 Struktur project awal:
 
 ```java
@@ -160,6 +154,12 @@ product-service
 
 <img width="1919" height="1020" alt="Screenshot 2026-03-09 002156" src="https://github.com/user-attachments/assets/461baa5a-e54a-4706-93d4-e2b96e0b2e72" />
 
+Masuk ke folder project:
+
+```java
+cd product-service
+```
+
 Jalankan aplikasi:
 
 ```java
@@ -171,6 +171,7 @@ Server berjalan pada:
 ```java
 http://localhost:8080
 ```
+<img width="1919" height="1022" alt="Screenshot 2026-03-09 012353" src="https://github.com/user-attachments/assets/e3ae5e3f-a16f-4a2b-8102-b5a505b850c9" />
 
 #
 
