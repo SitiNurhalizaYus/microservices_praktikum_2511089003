@@ -120,6 +120,7 @@ Setelah konfigurasi selesai klik **Generate** untuk mengunduh project.
 
 <img width="1919" height="868" alt="Screenshot 2026-03-08 235044" src="https://github.com/user-attachments/assets/1da9cc1b-300e-4fe5-823d-e459098a56eb" />
 
+
 #
 
 ### Menjalankan Project
@@ -173,6 +174,7 @@ http://localhost:8080
 ```
 <img width="1919" height="1022" alt="Screenshot 2026-03-09 012353" src="https://github.com/user-attachments/assets/e3ae5e3f-a16f-4a2b-8102-b5a505b850c9" />
 
+
 #
 
 ### Endpoint REST API
@@ -185,7 +187,6 @@ http://localhost:8080
 | DELETE | /products/{id} | Menghapus produk         |
 
 #
-
 ### Pengujian API Menggunakan Postman
 #
 
@@ -219,6 +220,7 @@ Sebelum memasukan produk
 Setelah menambahkan produk
 <img width="1919" height="1021" alt="Screenshot 2026-03-09 001606" src="https://github.com/user-attachments/assets/a047d6f4-e3a6-4c24-b5fa-f56b95ee0df1" />
 
+
 #
 
 ### Read Product
@@ -237,6 +239,7 @@ http://localhost:8080/products
 
 Melihat produk yang sudah ditambahkan sebelumnya
 <img width="1919" height="1022" alt="Screenshot 2026-03-09 001729" src="https://github.com/user-attachments/assets/8abc42fa-ab87-4d3b-9dc4-30bb1e74c66e" />
+
 
 #
 
@@ -271,6 +274,7 @@ Melakukan update data pada field  ```"price":850000``` menjadi ```"price":950000
 Data berhasil diperbarui
 <img width="1919" height="1022" alt="Screenshot 2026-03-09 001933" src="https://github.com/user-attachments/assets/6859c41e-6858-43e5-bada-90ead4fb4e4d" />
 
+
 #
 
 ## Delete Product
@@ -292,18 +296,12 @@ Menghapus data produk pada ```"id":1```
 Data produk ```"id":1``` berhasil dihapus
 <img width="1915" height="1013" alt="Screenshot 2026-03-09 002019" src="https://github.com/user-attachments/assets/faf6e7af-97de-427e-9862-834533334b97" />
 
+
 #
 
 ### Kesimpulan
 
-Pada praktikum ini berhasil dibuat REST API CRUD menggunakan **Spring Boot** untuk mengelola data produk. API yang dibuat mampu melakukan operasi:
-
-* Create data produk
-* Read data produk
-* Update data produk
-* Delete data produk
-
-REST API ini akan menjadi dasar implementasi **microservices pada pertemuan berikutnya**.
+Pada praktikum ini berhasil dibuat REST API CRUD menggunakan **Spring Boot** untuk mengelola data produk. API ini menyediakan endpoint untuk membuat, membaca, memperbarui, dan menghapus data produk.
 
 ---
 
